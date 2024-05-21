@@ -1,9 +1,9 @@
 data_config:
-  train_file: train.json
-  val_file: dev.json
-  test_file: dev.json
+  train_file: ./data/train_data.json
+  val_file: ./data/validation_data.json
+  test_file: ./data/test_data.json
   num_proc: 16
-max_input_length: 256
+max_input_length: 512
 max_output_length: 512
 training_args:
   # see `transformers.Seq2SeqTrainingArguments`
